@@ -1,1 +1,10 @@
 allow system_app sysfs_leds:dir search;
+
+# Touchpanel
+rw_dir_file(system_app, vendor_proc_display)
+
+# USB fast charge
+rw_dir_file(system_app, vendor_sysfs_fastcharge)
+
+# Vibrator
+rw_dir_file(system_app, sysfs_vibrator)
