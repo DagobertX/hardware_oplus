@@ -2,4 +2,5 @@ allow platform_app vendor_sysfs_kgsl:file r_file_perms;
 
 rw_dir_file(platform_app, vendor_sysfs_battery_supply)
 
+r_dir_file(platform_app, vendor_sysfs_graphics)
 r_dir_file(platform_app, vendor_sysfs_sde_crtc)
